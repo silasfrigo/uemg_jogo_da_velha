@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#FADA5E"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="165dp"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="@font/poppinsmed"
+        android:gravity="center_horizontal"
+        android:text="Bem vindo ao jogo da velha XO"
+        android:textAlignment="center"
+        android:textSize="36sp" />
+
+    <LinearLayout
+        android:id="@+id/lin_all"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/proximapagina"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/poppinsmed"
+            android:includeFontPadding="false"
+            android:text="Jogar"
+            android:textSize="36sp"
+            app:backgroundTint="@android:color/transparent">
+
+        </Button>
+    </LinearLayout>
+
+
+
+</RelativeLayout>

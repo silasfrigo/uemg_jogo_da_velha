@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/points"
+            android:layout_toLeftOf="@id/resetbuttons">
+
+            <TextView
+                android:id="@+id/text_view_p1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Jogador 1: 0"
+
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/text_view_p2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/text_view_p1"
+                android:layout_marginTop="25dp"
+                android:text="Jogador 2: 0"
+                android:textSize="30sp" />
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:id="@+id/resetbuttons"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_toRightOf="@id/points">
+
+            <Button
+                android:id="@+id/botao_resetar_partida"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+
+                android:text="Recomeçar Partida" />
+
+            <Button
+                android:id="@+id/botao_resetar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/botao_resetar_partida"
+                android:layout_marginRight="0dp"
+                android:text="Limpar Campo" />
+
+        </RelativeLayout>
+    </LinearLayout>
+
+    <LinearLayout
+
+        android:layout_width="374dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="20dp"
+
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_weight="1">
+
+        <Button
+            android:id="@+id/button_00"
+            android:layout_width="0dp"
+            android:layout_height="150dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/button"
+            android:textSize="60sp" />
+
+        <Button
+            android:id="@+id/button_01"
+            android:layout_width="0dp"
+            android:layout_height="150dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/button"
+            android:textSize="60sp" />
+
+        <Button
+            android:id="@+id/button_02"
+            android:layout_width="0dp"
+            android:layout_height="150dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginBottom="5dp"
+
+            android:layout_weight="1"
+            android:background="@drawable/button"
+            android:textSize="60sp"
+
+
+            />
+    </LinearLayout>
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_weight="1">
+
+        <Button
+            android:id="@+id/button_10"
+            android:layout_width="0dp"
+            android:layout_height="150dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/button"
+            android:textSize="60sp" />
+
+        <Button
+            android:id="@+id/button_11"
+            android:layout_width="0dp"
+            android:layout_height="150dp"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/button"
+            android:textSize="60sp" />
+
+        <Button
+            android:id="@+id/button_12"
+            android:layout_width="0dp"
+            android:layout_height="150dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/button"
+            android:textSize="60sp"
+
+            />
+    </LinearLayout>
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_weight="1">
+
+        <Button
+            android:id="@+id/button_20"
+            android:layout_width="0dp"
+            android:layout_height="150dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginRight="5dp"
+
+            android:layout_weight="1"
+            android:background="@drawable/button"
+            android:textSize="60sp" />
+
+        <Button
+            android:id="@+id/button_21"
+            android:layout_width="0dp"
+            android:layout_height="150dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginRight="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/button"
+            android:textSize="60sp" />
+
+        <Button
+            android:id="@+id/button_22"
+            android:layout_width="0dp"
+            android:layout_height="150dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="0dp"
+            android:layout_weight="1"
+            android:background="@drawable/button"
+            android:textSize="60sp" />
+    </LinearLayout>
+
+</LinearLayout>
